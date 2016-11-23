@@ -1,0 +1,307 @@
+/*
+.div{
+    font-family: 'Roboto', 'Lato';
+}
+
+roboto for headings 
+lato for paragraph text
+*/
+
+/*   
+ * Template Name: Sphere - Responsive website template for CV/Resume/Portfolio
+ * Version: 1.0
+ * Author: Xiaoying Riley at 3rd Wave Media
+ * Website: http://themes.3rdwavemedia.com/
+ * Twitter: @3rdwave_themes
+*/
+/* ======= Base ======= */
+body {
+  font-family: 'Roboto', 'Lato';
+  color: #666;
+  background: #f5f5f5;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #444;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+a {
+  color: #00BCD4;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #007888;
+}
+a:focus {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+.btn,
+a.btn {
+  background: #008fa1;
+  color: #fff;
+  padding: 8px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+.btn:hover,
+a.btn:hover {
+  color: #fff;
+  background: #00a5bb;
+}
+#topcontrol {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  background: #008fa1;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  z-index: 30;
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+#topcontrol:hover {
+  background: #007888;
+  color: #fff;
+}
+#topcontrol .fa {
+  position: relative;
+  top: 3px;
+  font-size: 25px;
+  font-weight: normal;
+}
+.header {
+  background: #00BCD4;
+  color: #fff;
+}
+.header a {
+  color: #fff;
+}
+.header .top-bar {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 120px;
+}
+.header .social {
+  margin-bottom: 0;
+}
+.header .social a {
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding-top: 2px;
+  font-size: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+.header .social a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+.header .actions {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.header .actions .fa {
+  margin-right: 5px;
+}
+.header .actions a {
+  margin-right: 10px;
+  color: #fff;
+}
+.header .actions a:last-child {
+  margin-right: 0;
+}
+.header .profile-image {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: -80px;
+  margin-left: -80px;
+}
+.header .name {
+  font-size: 48px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+.header .title {
+  font-size: 28px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}
+.header .intro {
+  background: #00a5bb;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  position: relative;
+  font-size: 16px;
+}
+.header .profile {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.header .contact-info {
+  background: #008fa1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+.header .contact-info ul {
+  margin-bottom: 0;
+}
+.header .contact-info li {
+  margin-right: 30px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.header .contact-info li a {
+  color: rgba(255, 255, 255, 0.8);
+}
+.header .contact-info li a:hover {
+  color: #fff;
+}
+.header .contact-info li:last-child {
+  margin-right: 0;
+}
+.header .contact-info li .fa {
+  margin-right: 10px;
+}
+.contact-section .intro {
+  position: relative;
+  padding: 30px;
+  padding-left: 190px;
+  font-size: 16px;
+  color: #666;
+}
+.contact-section .intro .profile-image {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 30px;
+}
+.contact-section .intro p {
+  margin-bottom: 15px;
+}
+.contact-section .service-list {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.contact-section .service-list li {
+  margin-bottom: 15px;
+}
+.contact-section .service-list .fa {
+  color: #00BCD4;
+}
+.contact-section .social {
+  margin-bottom: 0;
+}
+.contact-section .social li {
+  margin-right: 10px;
+}
+.contact-section .social li:last-child {
+  margin-right: 0;
+}
+.contact-section .social a {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  color: #8a8a8a;
+}
+.contact-section .social a:hover {
+  color: #00BCD4;
+}
+.footer .container {
+  padding: 30px;
+  color: #8a8a8a;
+  letter-spacing: 0.5px;
+}
+.footer .container a {
+  color: #8a8a8a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .header .social {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header .actions {
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .header .actions .btn {
+    margin-bottom: 15px;
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+  }
+  .header .actions .btn:last-child {
+    margin-bottom: 0;
+  }
+  .header .name {
+    font-size: 36px;
+  }
+  .header .title {
+    font-size: 22px;
+  }
+  .header .contact-info li {
+    margin-right: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    width: 100%;
+    display: inline-block;
+  }
+  .header .contact-info li:last-child {
+    margin-bottom: 0;
+  }
+ 
