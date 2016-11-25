@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto', 'Lato';
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: white;
+    margin: 10px;
+    border: dotted red 2px;
+}
+
+.social{
+    background-color: white;
+}
+
+.social a{
+    color:darkorange;
+}
+
+.jumbotron{
+    background-color: darkorange;
+}
+.jumbotron h1. h2{
+    text-align: right;
+}
+.profileimage{
+    width: 40%;
+    height: 40%;
+    position: relative;
+}
