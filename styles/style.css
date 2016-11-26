@@ -4,10 +4,12 @@ body{
     overflow-x: hidden;
 }
 
+.header{
+    width: 100%;
+}
 .container{
-    background-color: white;
-    margin: 10px;
-    border: dotted red 2px;
+    background-color: darkorange;
+    margin: 2px;
 }
 
 .social{
@@ -24,8 +26,12 @@ body{
 .jumbotron h1. h2{
     text-align: right;
 }
-.profileimage{
+.jumbotron container{
+    background-color: darkorange;
+}
+.img-thumbnail{
     width: 40%;
     height: 40%;
     position: relative;
+    border-radius: 50%;
 }
