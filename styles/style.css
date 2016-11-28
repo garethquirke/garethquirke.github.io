@@ -10,6 +10,7 @@ body{
 }
 .container{
     margin: 2px;
+    border: red dotted 2px;
 }
 
 .social{
@@ -31,15 +32,14 @@ body{
 .jumbotron{
     background-color: darkorange;
 }
-.jumbotron h1. h2{
+.jumbotron h1 h2{
     text-align: right;
 }
 .jumbotron container{
     background-color: darkorange;
 }
 .img-thumbnail{
-    width: 40%;
-    height: 40%;
+    width: 100%;
     position: relative;
     border-radius: 50%;
 }
