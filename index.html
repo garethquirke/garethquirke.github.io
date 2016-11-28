@@ -21,11 +21,20 @@
         <!-- content container -->
         <div class="container" id="top">
             
-            <div class="social container">
+                <div class="social container-fluid">
             <ul class="social-list list-inline">
                 <li><a href="https://github.com/garethquirke"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/garethquirke"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>           
+                <li><a href="https://www.linkedin.com/in/garethquirke"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+                <div class="input-group col-md-3">
+                                <input type="text" class="search-query form-control" placeholder="Search.." />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
             </ul>
+                
         </div>
             
         
@@ -47,9 +56,54 @@
         <!-- 
             Sections: [About me] , [Experience] , [Projects] , [Google map] , [Contact Me]
 
+
+                  <div class="panel panel-info">
+      <div class="panel-heading">Panel with panel-info class</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+        
             -->
         
+   
         
+        
+        <div class="container sections">
+        <div class="row headers-row">
+            <div class="col-lg-2 central">
+             <a href="#about">
+             <i class="fa fa-male fa-3x" aria-hidden="true"></i>
+             <h2 class="section-text">About Me</h2>
+             </a>
+            </div>
+            
+            <div class="col-lg-2 central">
+             <a href="#experience">
+             <i class="fa fa-briefcase fa-3x" aria-hidden="true"></i>
+             <h2 class="section-text">Experience</h2>
+             </a>
+            </div>
+            
+            <div class="col-lg-2 central">
+             <a href="#projects">
+             <i class="fa fa-flask fa-3x" aria-hidden="true"></i>
+             <h2 class="section-text">Projects</h2>
+             </a>
+            </div>
+            
+            <div class="col-lg-2 central">
+             <a href="#map">
+             <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
+             <h2 class="section-text">Map</h2>
+             </a>
+            </div>
+            
+            <div class="col-lg-2 central">
+             <a href="#contact">
+             <i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
+             <h2 class="section-text">Contact</h2>
+             </a>
+            </div>
+        </div>
         
         
         
@@ -60,10 +114,9 @@
         
         
         <div class="navbar navbar-fixed-bottom footer">
-        <div class="container">
-            <p class="text-muted">Gareth Quirke interactive CV</p>
-            <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-            </div>
+            <p class="text-muted">Gareth Quirke interactive CV
+            <a href="#top"><i class="fa fa-angle-up fa-5x" aria-hidden="true"></i></a>
+            </p>
         </div>
         
     </body>

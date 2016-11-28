@@ -6,11 +6,11 @@ body{
 }
 
 .header{
-    width: 100%;
+    
 }
 .container{
-    margin: 2px;
-    border: red dotted 2px;
+    margin: 3px;
+    width: 100%;
 }
 
 .social{
@@ -28,6 +28,14 @@ body{
     color:darkorange;
     
 }
+.social button{
+    color: white;
+    background-color: darkorange;
+}
+.social button:hover{
+    color: white;
+    background-color: darkorange;
+}
 
 .jumbotron{
     background-color: darkorange;
@@ -39,7 +47,7 @@ body{
     background-color: darkorange;
 }
 .img-thumbnail{
-    width: 100%;
+    width: 85%;
     position: relative;
     border-radius: 50%;
 }
