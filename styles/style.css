@@ -5,9 +5,6 @@ body{
     padding-bottom: 70px;
 }
 
-.header{
-    
-}
 .container{
     margin: 3px;
     width: 100%;
@@ -36,7 +33,14 @@ body{
     color: white;
     background-color: darkorange;
 }
-
+.social button:active {
+    color: white;
+    background-color: darkorange;
+}
+.social button:focus {
+    color:white;
+    background-color: darkorange;
+}
 .jumbotron{
     background-color: darkorange;
 }
@@ -52,10 +56,134 @@ body{
     border-radius: 50%;
 }
 
+.sections{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.sections .central{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.central a{
+    color: darkorange;
+}
+.central a:hover{
+    text-decoration: none;
+}
+#content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#content p{
+    font: 130% Roboto, Lato;
+}
+#content h3{
+    color: darkorange;
+}
+.skill-list{
+    font-size: 1.23em;
+}
+#education-row{
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid grey;
+}
+.education-details img{
+    width:  20%;
+}
+#grade-graph{
+    width: 40%;
+    height: 40%;
+}
+#work-loc-text{
+    font-size: 1.23em;
+}
+.experience-details img{
+    width: 15%;
+}
+.experience-details i{
+    padding-left: 15px;
+}
+.experience-details p{
+    font-size: 0.9em; padding-left:10px;
+}
+#experience-row{
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid grey;
+}
+
+
+#spacer{
+    padding-bottom: 50px;
+}
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+.technology-used-am{
+    display: inline;
+}
+.technology-used-am h5{
+    padding: 2px;
+}
+#project-row{
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 2px;
+}
+.project-details{
+    height: 200px;
+}
+
 .footer{
     background-color: whitesmoke;
 }
 .footer a{
     float: right;
     color: darkorange;
+}
+
+#gpa-circle{
+    margin-top: 5px;
+    border: 0.5px solid grey;
+}
+#contact-methods i{
+    color: limegreen;
+    background-color: white
+}
+
+/*
+* Responsive CSS for smaller screens
+*/
+
+@media (min-width: 991px) {
+.project-details{
+    height: 100px;
+}
+}
+@media(min-width: 600px){
+.project-details{
+    height: 90px;
+}
+}
+@media(min-width:500){
+.project-details{
+    height: 70px;
+}
+}
+@media(min-width:400px){
+.project-details{
+    height: 60px;
+}
+}
+@media(min-width:300px){
+.project-details{
+    height: 60px;
+}
+}
+@media(min-width:200px){
+.project-details{
+    height: 60px;
+}
 }
