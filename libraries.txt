@@ -1,0 +1,8 @@
+Style libs---------
+bootstrap
+font-awesome
+hover css
+circle css
+
+JS Libs------------
+flowtype

@@ -1,0 +1,5 @@
+Ideas----------------------
+Minimize sidebar with button when shrunk to size x
+Gifs for project demos
+Git statistics
+Color theme selector -> change css vars in the project
